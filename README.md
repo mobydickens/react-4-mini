@@ -12,10 +12,10 @@ In this project, we will create a very basic React application from scratch that
 
 ## Setup
 
-* `Fork` and `clone` this repository.
+<!-- * `Fork` and `clone` this repository.
 * `cd` into the project.
 * Run `create-react-app ./` to get a React boilerplate.
-  * Delete `README.md` and rename `README.old.md` back to `README.md`.
+  * Delete `README.md` and rename `README.old.md` back to `README.md`. -->
 
 ## Step 1
 
@@ -25,9 +25,9 @@ In this step, we will create three basic components that will be used later for 
 
 ### Instructions
 
-* Open `src/`.
+<!-- * Open `src/`.
 * Create a `Route1.js`, `Route2.js`, and `Route3.js`.
-* All three `Route#.js` files should be very basic state-less components.
+* All three `Route#.js` files should be very basic state-less components. -->
 
 ### Solution
 
@@ -93,7 +93,7 @@ In this step, we will add the `react-router-dom` package to our React project.
 
 ### Instructions
 
-* Run `npm install --save react-router-dom`.
+<!-- * Run `npm install --save react-router-dom`. -->
 
 ### Solution
 
@@ -107,13 +107,13 @@ In this step, we will configure routes using a `routes.js` file.
 
 ### Instructions
 
-* Create a new `src/routes.js` file.
-* Open `src/routes.js`.
-* Import `React` from `react`.
-* Import `{ Switch, Route }` from `react-router-dom`.
-* Import the three `src/Route#.js` components.
-* Export by default a `<Switch></Switch>` component.
-* Add three `<Route/>` components for each `src/Route#.js` component inside the exported `<Switch></Switch>` component.
+<!-- * Create a new `src/routes.js` file. -->
+<!-- * Open `src/routes.js`. -->
+<!-- * Import `React` from `react`. -->
+<!-- * Import `{ Switch, Route }` from `react-router-dom`. -->
+<!-- * Import the three `src/Route#.js` components. -->
+<!-- * Export by default a `<Switch></Switch>` component. -->
+<!-- * Add three `<Route/>` components for each `src/Route#.js` component inside the exported `<Switch></Switch>` component. -->
 
 ## Solution
 
@@ -149,9 +149,9 @@ In this step, we'll render the `routes` inside the main `src/App.js` component.
 
 ### Instructions
 
-* Open `src/App.js`.
-* Import the `src/routes.js` file.
-* Underneath the `<p></p>` element use `{}` to break out of JSX and render the imported router.
+<!-- * Open `src/App.js`. -->
+<!-- * Import the `src/routes.js` file. -->
+<!-- * Underneath the `<p></p>` element use `{}` to break out of JSX and render the imported router. -->
 
 ### Solution
 
@@ -197,9 +197,9 @@ In this step, we'll configure our React application to handle routing.
 
 ### Instructions
 
-* Open `src/index.js`.
-* Import `HashRouter` from `react-router-dom`.
-* In the `ReactDOM.render` statement, wrap the `<App />` component in a `<HashRouter></HashRouter>` component.
+<!-- * Open `src/index.js`. -->
+<!-- * Import `HashRouter` from `react-router-dom`. -->
+<!-- * In the `ReactDOM.render` statement, wrap the `<App />` component in a `<HashRouter></HashRouter>` component. -->
 
 ### Solution
 
@@ -236,9 +236,9 @@ In this step, we'll provide a way for a user to navigate between the routes. Usi
 
 ### Instructions
 
-* Open `src/App.js`.
-* Import `Link` from `react-router-dom`.
-* Above the rendering of the routes, add three `<Link>` components that route to the three different paths configured in `src/routes.js`.
+<!-- * Open `src/App.js`. -->
+<!-- * Import `Link` from `react-router-dom`. -->
+<!-- * Above the rendering of the routes, add three `<Link>` components that route to the three different paths configured in `src/routes.js`. -->
 
 ### Solution
 
